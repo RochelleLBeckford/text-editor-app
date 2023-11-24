@@ -28,7 +28,7 @@
   - [ ] -> indent text
   - [ ] -> outdent text
 
-- [ ] The user can click the drop down for the font size and select desired size for the text 
+- [ ] The user can click the drop down for the font size and select desired size for the text
 - [ ] The user can choose the font type for the text.
 - [ ] The user can click the drop down and chose how many spaces the text will indent or outdent.
 - [ ] The user can click the font color box -> to change the color of the text
