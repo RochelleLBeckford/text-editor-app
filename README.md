@@ -49,4 +49,4 @@
 
 ---
 
-- [ ] Link for the web application:
+- [ ] Link for the web application: https://rlb-text-editor.netlify.app/
