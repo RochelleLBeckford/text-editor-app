@@ -1,0 +1,117 @@
+/* & Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* & Page reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(159,243,172);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    /* text-decoration: underline; */
+    /* ~ putting a line under the text */
+    padding-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container {
+    background-color: #fff;
+    width: 90vmin;
+    padding: 50px 30px;
+    position: absolute;
+    /* ~this made the text formatting buttons move 50% to the left and 50% up -> move element horizontally and vertically */
+    transform: translate(-50%, -50%);
+    /* ~ center the element */
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px rgb(85, 85, 85);
+} 
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+/* & Style the text formatting buttons */
+button {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    color: #020929;
+    cursor: pointer;
+}
+
+select {
+    padding: 7px;
+    border: 1px solid #020929;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.options label,
+.options select {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* & Style Font Color and Highlight Color */
+input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 40px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+/* & Style input type color swatch */
+input[type="color"]::-webkit-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #020929;
+}
+
+/* & Style Color selected from the swatch*/
+input[type="color"]::-moz-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #020929;
+}
+
+/* & Style writing area*/
+#text-input {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: 50vh;
+}
+
+/* & */
+.active {
+    background-color: #e0e9ff;
+}
