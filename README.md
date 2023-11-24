@@ -53,3 +53,5 @@
 ---
 
 - [ ] Link for the web application: <a href="https://rlb-text-editor.netlify.app/" target="_blank">Text Editor App</a>
+
+- [ ] [Text Editor App](https://rlb-text-editor.netlify.app/){:target="_blank"}
