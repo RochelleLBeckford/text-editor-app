@@ -1,7 +1,9 @@
 # TextEditorApp
+
 <!-- can have readme preview open as well to see how it will appear -->
 
 <!-- ## this is a sub heading -->
+
 ## *Concept:*
 
 ### *Build out a Text Editor Application*
@@ -9,9 +11,11 @@
 ---
 
 <!-- - this is a bullet -->
+
 - [ ] A modern style Text Editor with the ability to allow user to edit any text written in the text editor box
 - [ ] The user will be able to utilize the text format buttons to edit the text
 - [ ] The user will then choose and click one of the text format buttons so the text can become:
+
   - [ ] -> bold
   - [ ] -> subscript
   - [ ] -> superscript
@@ -27,7 +31,6 @@
   - [ ] -> align text justify
   - [ ] -> indent text
   - [ ] -> outdent text
-
 - [ ] The user can click the drop down for the font size and select desired size for the text
 - [ ] The user can choose the font type for the text.
 - [ ] The user can click the drop down and chose how many spaces the text will indent or outdent.
@@ -49,4 +52,4 @@
 
 ---
 
-- [ ] Link for the web application: https://rlb-text-editor.netlify.app/
+- [ ] Link for the web application: <a href="https://rlb-text-editor.netlify.app/" target="_blank">Text Editor App</a>
