@@ -77,7 +77,7 @@ advancedOptionButton.forEach((button) => {
     });
 });
 
-// & Method to give funtionality to the linkButtons
+// & Method to give functionality to the linkButtons
 linkButton.addEventListener("click", () => {
     let userLink = prompt("Enter a URL?");
 
