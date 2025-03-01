@@ -1,4 +1,4 @@
-# TextEditorApp
+# Text Editor App
 
 <!-- can have readme preview open as well to see how it will appear -->
 
